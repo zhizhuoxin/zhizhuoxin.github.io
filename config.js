@@ -7,8 +7,8 @@ module.exports = {
   authorAlternative: '宋世欣',
   // TODO: Write an introduction
   introduction: [
-    '[fxhsb](https://github.com/Reapor-Yurnero) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      'I am currently an undergraduate student majoring in Computer Science at University of Michigan ([Umich](https://cse.engin.umich.edu/)). Before I transferred to Umich, I also studied in Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) and was majoring in Electrical and Computer Engineering.',
+      'My research interest mainly lies in computer systems and architecture. Currently I am interested in compiler and CPU optimizations in large cloud computing systems. I want to contribute to more efficient data center applications.'
   ],
   avatar: 'shixin.jpg',
   professions: [
