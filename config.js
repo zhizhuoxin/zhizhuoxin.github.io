@@ -8,7 +8,8 @@ module.exports = {
   // TODO: Write an introduction
   introduction: [
       'I am currently an undergraduate student majoring in Computer Science at University of Michigan ([Umich](https://cse.engin.umich.edu/)). Before I transferred to Umich, I also studied in Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) and was majoring in Electrical and Computer Engineering.',
-      'My research interest mainly lies in computer systems and architecture. Currently I am interested in compiler and CPU optimizations in large cloud computing systems. I want to contribute to more efficient data center applications.'
+      'My research interest mainly lies in computer systems and architecture. Currently I am interested in compiler and CPU optimizations in large cloud computing systems. I want to contribute to more efficient data center applications.',
+      'I am applying for PhD programs, and I expect to graduate in Summer 2022. Please reach out to me if your are looking for PhD students.'
   ],
   avatar: 'shixin.jpg',
   professions: [
