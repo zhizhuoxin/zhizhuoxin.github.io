@@ -1,8 +1,8 @@
 ---
-title: "Dire Tide 2020"
+title: "Thermometer"
 tags:
-  - "dota2"
-  - "game"
+  - "CPU"
+  - "Optimization"
 date: 2020-10-04
 venue: DOTA2
 authors:
