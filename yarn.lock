@@ -1164,6 +1164,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.36"
 
+"@fortawesome/free-regular-svg-icons@^5.15.4":
+  version "5.15.4"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.15.4.tgz#b97edab436954333bbeac09cfc40c6a951081a02"
+  integrity sha512-9VNNnU3CXHy9XednJ3wzQp6SwNwT3XaM26oS4Rp391GsxVYA+0oDR2J194YCIWf7jNRCYKjUCOduxdceLrx+xw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.36"
+
 "@fortawesome/free-solid-svg-icons@^5.15.4":
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.4.tgz#2a68f3fc3ddda12e52645654142b9e4e8fbb6cc5"
@@ -2443,6 +2450,11 @@ abort-controller@3.0.0:
   integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
   dependencies:
     event-target-shim "^5.0.0"
+
+academicons@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/academicons/-/academicons-1.9.1.tgz#8be1db54559ef50e919db1928123274e15e77555"
+  integrity sha512-5bNH9nbbCdIaBsD7g6VYssA+N0QmqLxKSZgLCfOsFyppc5RPgmq8ZttTTbFMsuDgr57gbHROSLgPtc3Jah4oOw==
 
 accepts@^1.3.7, accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -6180,18 +6192,20 @@ gatsby-telemetry@^2.14.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-academic@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-academic/-/gatsby-theme-academic-1.1.5.tgz#47a72e6b7e580d1707a91deb93a548c79104ab52"
-  integrity sha512-gH/iX3TW0PICsIqZk/QAi0hAh0VTPvcTKBZ7dts9t7VC+YbBxcPSgcdStKAj6yCYdtM7K2EwAD/SBiE4eHlwGw==
+gatsby-theme-academic@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-academic/-/gatsby-theme-academic-1.1.9.tgz#ec6ef87f8cc47511d634b882228967d7cdfe2d3c"
+  integrity sha512-YY0kFMFH/Q9ZUiucnTfg/7pvb/vabp7VEpj3smWdjTU6QW3o89wbI4S2W3NAhBRSqzODrCgut30KQzDJWVPE1w==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.36"
     "@fortawesome/free-brands-svg-icons" "^5.15.4"
+    "@fortawesome/free-regular-svg-icons" "^5.15.4"
     "@fortawesome/free-solid-svg-icons" "^5.15.4"
     "@fortawesome/react-fontawesome" "^0.1.15"
     "@loadable/component" "^5.15.0"
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
+    academicons "^1.9.1"
     antd "^4.16.13"
     autocomplete.js "^0.38.0"
     canvas "^2.8.0"
