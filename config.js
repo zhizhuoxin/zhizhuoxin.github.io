@@ -138,6 +138,9 @@ module.exports = {
     ],
     awards: [
         {
+            date: 'Jan. 2022',
+            title: 'CRA Outstanding Undergraduate Researcher Award Honorable Mention',
+        }, {
             date: 'Oct. 2021',
             title: 'MICRO-54 ACM Student Research Competition First Place Winner',
         }, {
