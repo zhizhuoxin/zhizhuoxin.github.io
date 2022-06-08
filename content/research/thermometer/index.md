@@ -3,12 +3,12 @@ title: "Thermometer: Profile-Guided BTB Replacement for Data Center Applications
 tags:
   - "cpu"
   - "optimization"
-date: 2021-08-12
-path: "research/btb"
-excerpt: Presented a novel BTB replacement policy that achieves near-ideal front-end processor performance for data center applications.
+date: 2021 - 2022
+path: "research/thermometer"
+excerpt: Presented a novel BTB replacement policy that achieves near-ideal frontend processor performance for data center applications.
 selected: true
 cover: "./thermometer_logo.png"
-venue: "WI-IAT 2021 (Full Paper) / SOCS 2021 (Extended Abstract)"
+venue: "International Symposium on Computer Architecture (ISCA) 2022"
 authors:
   - "Shixin Song"
   - "Tanvir Ahmed Khan"
