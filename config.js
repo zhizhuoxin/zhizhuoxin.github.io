@@ -68,17 +68,17 @@ module.exports = {
             title: 'B.E. in Electrical and Computer Engineering',
             location: 'Shanghai Jiao Tong University',
         }],
-    // interests: [
-    //     {
-    //         icon: 'cloud',
-    //         title: 'Cloud Computing Systems',
-    //     }, {
-    //         icon: 'layer-group',
-    //         title: 'Compiler Techniques and Optimizations',
-    //     }, {
-    //         icon: 'microchip',
-    //         title: 'Microarchitecture',
-    //     }],
+    interests: [
+        {
+            icon: 'microchip',
+            title: 'Computer Architecture and Security',
+        }, {
+            icon: 'shield',
+            title: 'Side-Channel Mitigation',
+        }, {
+            icon: 'layer-group',
+            title: 'Formal Methods and Programming Languages',
+        }],
     experience: [
         {
             title: 'Work',
