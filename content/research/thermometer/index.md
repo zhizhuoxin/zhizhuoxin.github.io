@@ -22,5 +22,5 @@ authors:
 links:
   - name: "pdf"
     file: "./Thermometer_ISCA_22.pdf"
-priority: 20
+priority: 30
 ---

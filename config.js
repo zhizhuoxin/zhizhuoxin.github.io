@@ -7,21 +7,20 @@ module.exports = {
     authorAlternative: '宋世欣',
     // TODO: Write an introduction
     introduction: [
-        'I am currently an undergraduate student majoring in Computer Science at University of Michigan ([Umich](https://cse.engin.umich.edu/)). Before I transferred to Umich, I also studied in Shanghai Jiao Tong University ([SJTU](https://en.sjtu.edu.cn/)) and was majoring in Electrical and Computer Engineering.',
-        'My research interest mainly lies in computer systems and architecture. Currently I am interested in compiler and CPU optimizations in large cloud computing systems. I want to contribute to more efficient data center applications.',
-        'I am applying for PhD programs, and I expect to graduate in Summer 2022. Please reach out to me if your are looking for PhD students.'
+        'I am a 4th-year PhD student at MIT CSAIL, advised by Prof. [Mengjia Yan](https://people.csail.mit.edu/mengjia/). My research interest lies in computer architecture and security, with a particular focus on mitigating microarchitectural side-channel attacks. I am especially interested in applying formal methods and programming language principles to advance security analysis and design comprehensive defense mechanisms against microarchitectural vulnerabilities.',
+        'Before joining MIT, I earned a bachelor’s degree in Computer Science from the University of Michigan. I also hold a bachelor’s degree in Electrical and Computer Engineering from Shanghai Jiao Tong University.'
     ],
     avatar: 'shixin.jpg',
     professions: [
-        'CSE Student',
+        'PhD Student',
         // 'Software Engineer',
         // 'Full Stack Developer',
     ],
     tocMaxDepth: 2,
     excerptMaxLength: 500,
-    birthday: 'Some day',
-    location: 'Ann Arbor, MI, US',
-    email: 'shixins@umich.edu',
+    // birthday: 'Some day',
+    location: 'Cambridge, MA, US',
+    email: 'shixins@mit.edu',
     postsForArchivePage: 3,
     defaultLanguage: 'en',
     // TODO: What's disqusScript?
@@ -39,7 +38,7 @@ module.exports = {
     social: [
         {url: '/resume.pdf', icon: ['ai', 'cv'],},
         {url: 'https://github.com/zhizhuoxin', icon: ['fab', 'github'],},
-        {url: 'https://twitter.com/zhizhuoxin', icon: ['fab', 'twitter'],},
+        {url: 'https://www.linkedin.com/in/shixin-song-72b141224/', icon: ['fab', 'linkedin'],},
     ],
     wakatime: {
         username: 'zhizhuoxin',
@@ -54,37 +53,42 @@ module.exports = {
     googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
     education: [
         {
-            date: 'Sept. 2020 - Present',
+            date: '2022 - Present',
             icon: 'university',
-            title: 'Bachelor of Science in Computer Science',
+            title: 'Ph.D. Student in Computer Science',
+            location: 'Massachusetts Institute of Technology',
+        }, {
+            date: '2020 - 2022',
+            icon: 'university',
+            title: 'B.S.E. in Computer Science',
             location: 'University of Michigan',
         }, {
-            date: 'Sept. 2018 - June. 2020',
+            date: '2018 - 2022',
             icon: 'university',
-            title: 'Bachelor of Science in Electrical and Computer Engineering',
+            title: 'B.E. in Electrical and Computer Engineering',
             location: 'Shanghai Jiao Tong University',
         }],
-    interests: [
-        {
-            icon: 'cloud',
-            title: 'Cloud Computing Systems',
-        }, {
-            icon: 'layer-group',
-            title: 'Compiler Techniques and Optimizations',
-        }, {
-            icon: 'microchip',
-            title: 'Microarchitecture',
-        }],
+    // interests: [
+    //     {
+    //         icon: 'cloud',
+    //         title: 'Cloud Computing Systems',
+    //     }, {
+    //         icon: 'layer-group',
+    //         title: 'Compiler Techniques and Optimizations',
+    //     }, {
+    //         icon: 'microchip',
+    //         title: 'Microarchitecture',
+    //     }],
     experience: [
         {
             title: 'Work',
             position: 'left',
             data: [
                 {
-                    date: 'Feb. 2021 - Present',
+                    date: '2021',
                     title: 'Research Assistant',
                     location: 'University of Michigan',
-                    description: 'Work in EFES Lab with Prof. [Baris Kasikci](https://web.eecs.umich.edu/~barisk/).',
+                    description: 'Work in EFES Lab with Prof. [Baris Kasikci](https://homes.cs.washington.edu/~baris/).',
                 },
             ],
         }, {
@@ -92,21 +96,29 @@ module.exports = {
             position: 'right',
             data: [
                 {
-                    date: 'Sept. 2021 - Present',
+                    date: '2025',
+                    title: 'Teaching Assistant of [6.5950 Secure Hardware Design](https://shd.mit.edu/home/)',
+                    location: 'Massachusetts Institute of Technology',
+                }, {
+                    date: '2022',
+                    title: 'Grader of EECS475 Introduction to Cryptography',
+                    location: 'University of Michigan',
+                }, {
+                    date: '2021',
                     title: 'Grader of [EECS370 Introduction to Computer Organization](https://eecs370.github.io/)',
                     location: 'University of Michigan',
                 }, {
-                    date: 'Sept. 2020 - Dec. 2020',
+                    date: '2020',
                     title: 'Teaching Assistant of [VG101 Introduction to Computers and Programming](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=74)',
                     location: 'Shanghai Jiao Tong University',
                     description: 'Worked with Prof. [Manuel Charlemagne](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/).',
                 }, {
-                    date: 'May. 2020 - Aug. 2020',
+                    date: '2020',
                     title: 'Teaching Assistant of [VG100 Introduction to Engineering](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=73)',
                     location: 'Shanghai Jiao Tong University',
                     description: 'Worked with Prof. [Manuel Charlemagne](https://www.ji.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/).',
                 }, {
-                    date: 'Sept. 2019 - Dec. 2019',
+                    date: '2019',
                     title: 'Teaching Assistant of [VV186 Honors Mathematics II](https://www.ji.sjtu.edu.cn/academics/courses/courses-by-number/course-info/?id=233)',
                     location: 'Shanghai Jiao Tong University',
                     description: 'Worked with Prof. [Horst Hohberger](https://umji.sjtu.edu.cn/~horst/index.html).',
@@ -128,7 +140,7 @@ module.exports = {
             position: 'left',
             data: [
                 {
-                    date: 'Sep. 2019 - Dec. 2019',
+                    date: '2019',
                     title: 'Student Advisor of Advising Center at UM-SJTU JI',
                     location: 'Shanghai Jiao Tong University',
                     description: 'Worked as an advisor to help classmates.',
@@ -138,27 +150,37 @@ module.exports = {
     ],
     awards: [
         {
-            date: 'Jan. 2022',
+            date: '2025',
+            title: 'EECS MathWorks Fellowship',
+        }, {
+            date: '2025',
+            title: 'Ho-Ching and Han-Ching Fund Award',
+        }, {
+            date: '2022',
+            title: 'Presidential Graduate Fellowship Award',
+        }, {
+            date: '2022',
             title: 'CRA Outstanding Undergraduate Researcher Award Honorable Mention',
         }, {
-            date: 'Oct. 2021',
+            date: '2021',
             title: 'MICRO-54 ACM Student Research Competition First Place Winner',
         }, {
-            date: 'Aug. 2021',
+            date: '2021',
             title: 'Roger King Scholarship',
         }, {
-            date: 'Nov. 2020',
+            date: '2020',
             title: 'SJTU Undergraduate Excellent Scholarship',
         }, {
-            date: 'Nov. 2019',
+            date: '2019',
             title: 'Fuda Scholarship',
         }, {
-            date: 'Nov. 2019',
+            date: '2019',
             title: 'SJTU Undergraduate Excellent Scholarship',
-        }, {
-            date: 'Oct. 2017',
-            title: 'The National High School Mathematics League',
-        },
+        }
+        // {
+        //     date: '2017',
+        //     title: 'The National High School Mathematics League',
+        // },
     ],
     tagColors: [
         'magenta', 'red', 'volcano', 'orange', 'gold',
