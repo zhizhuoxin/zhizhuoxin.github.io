@@ -73,7 +73,7 @@ module.exports = {
             icon: 'microchip',
             title: 'Computer Architecture and Security',
         }, {
-            icon: 'gears',
+            icon: 'circle-check',
             title: 'Side-Channel Mitigation',
         }, {
             icon: 'layer-group',
