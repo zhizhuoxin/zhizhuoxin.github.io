@@ -16,5 +16,5 @@ authors:
 links:
   - name: "pdf"
     file: "./Oreo_NDSS_25.pdf"
-priority: 50
+priority: 20
 ---
