@@ -7,14 +7,12 @@ module.exports = {
     authorAlternative: '宋世欣',
     // TODO: Write an introduction
     introduction: [
-        'I am a 4th-year PhD student at MIT CSAIL, advised by Prof. [Mengjia Yan](https://people.csail.mit.edu/mengjia/). My research interest lies in computer architecture and security, with a particular focus on mitigating microarchitectural side-channel attacks. I am especially interested in applying formal methods and programming language principles to advance security analysis and design comprehensive defense mechanisms against microarchitectural vulnerabilities.',
+        'I am a 5th-year PhD student at MIT CSAIL, advised by Prof. [Mengjia Yan](https://people.csail.mit.edu/mengjia/). My research interest lies in computer architecture and security, with a particular focus on mitigating microarchitectural side-channel attacks. I am especially interested in applying formal methods and programming language principles to advance security analysis and design comprehensive defense mechanisms against microarchitectural vulnerabilities.',
         'Before joining MIT, I earned a bachelor’s degree in Computer Science from the University of Michigan. I also hold a bachelor’s degree in Electrical and Computer Engineering from Shanghai Jiao Tong University.'
     ],
     avatar: 'shixin.jpg',
     professions: [
         'PhD Student',
-        // 'Software Engineer',
-        // 'Full Stack Developer',
     ],
     tocMaxDepth: 2,
     excerptMaxLength: 500,
@@ -23,9 +21,6 @@ module.exports = {
     email: 'shixins@mit.edu',
     postsForArchivePage: 3,
     defaultLanguage: 'en',
-    // TODO: What's disqusScript?
-    disqusScript: process.env.DISQUS_SCRIPT
-        || 'https://tc-imba.disqus.com/embed.js',
     // TODO: Remove unused pages
     pages: {
         home: '/',
