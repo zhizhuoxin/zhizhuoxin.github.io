@@ -4,7 +4,7 @@ tags:
   - "formal execution models"
   - "side-channel mitigation"
   - "information-flow security"
-date: 2026
+date: "2026"
 path: "research/scheri"
 excerpt: Developed a formal framework for reasoning jointly about capability safety, speculative execution, and information-flow security; presented SCHERI, a new processor design within this framework; and formally proved that SCHERI provides end-to-end secure speculation guarantees under the constant-time policy.
 selected: true
